@@ -7,7 +7,7 @@ This is an Apache Beam pipeline that ingests csv transactions.csv
 Use Poetry and Pipenv to create virtual environment and install requirements
 
 ## execute pipeline
-python3 -m transaction_pipeline
+python3 pipeline.py --output results.csv
 
 ## execute unit tests using pytest
 pytest
